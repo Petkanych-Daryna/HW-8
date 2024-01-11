@@ -1,0 +1,67 @@
+#greycol{
+    color: gray;
+}
+.yellow{
+    color: yellow;
+}
+div~p {
+    color: green;
+}
+p:first-child{
+    color: red;
+}
+h3:first-of-type{
+    color: pink;
+}
+
+
+
+
+table, th, td {
+    border: 1px solid black;
+}
+
+
+.line{
+    color: rgb(32, 240, 32);
+    font-size: 25px;
+}
+.line:hover{
+    color: red;
+}
+.line1:hover{
+    color: palevioletred; 
+}
+.line2:hover{
+    color: aqua;
+}
+.line3:hover{
+    color: darkorange;
+}
+.line4:hover{
+    color: cornflowerblue;
+}
+.line5:hover{
+    color: khaki;
+}
+.line6:hover{
+    color: tomato;
+}
+.line7:hover{
+    color: lightcoral;
+}
+th:first-child{
+    color: blue;
+}
+.box1:hover{
+    color: lavenderblush;
+}
+th:last-child{
+    color: violet;
+}
+th:nth-last-child(2){
+    color: #608895;
+}
+td::first-letter{
+    color: rgb(213, 88, 50);
+}
